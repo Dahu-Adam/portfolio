@@ -1,0 +1,40 @@
+/*---------Les différentes polices utiliées sur ce site----------*/
+@font-face {
+    font-family: 'police1';
+    src: url('../font/FFF_Tusj-webfont.eot');
+    src: url('../font/FFF_Tusj-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/FFF_Tusj-webfont.woff2') format('woff2'),
+         url('../font/FFF_Tusj-webfont.woff') format('woff'),
+         url('../font/FFF_Tusj-webfont.ttf') format('truetype'),
+         url('../font/FFF_Tusj-webfont.svg#fff_tusjbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'police2';
+    src: url('../font/hetilica-webfont.eot');
+    src: url('../font/hetilica-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/hetilica-webfont.woff2') format('woff2'),
+         url('../font/hetilica-webfont.woff') format('woff'),
+         url('../font/hetilica-webfont.ttf') format('truetype'),
+         url('../font/hetilica-webfont.svg#hetilicabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'police3';
+    src: url('../font/berkshireswash-regular-webfont.eot');
+    src: url('../font/berkshireswash-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/berkshireswash-regular-webfont.woff2') format('woff2'),
+         url('../font/berkshireswash-regular-webfont.woff') format('woff'),
+         url('../font/berkshireswash-regular-webfont.ttf') format('truetype'),
+         url('../font/berkshireswash-regular-webfont.svg#berkshire_swashregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+    /*font-family: 'charm';
+    src: url('../font/charm.otf');*/  
+}
+
+@import url('https://fonts.googleapis.com/css?family=Charm');  /*Autre technique pour utiliser une nouvelle police , soit <link....dans html, soit @import en CSS*/
+
+/*---------------------------------------------------------------*/
+

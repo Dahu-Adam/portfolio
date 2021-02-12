@@ -1,0 +1,81 @@
+#mainNav {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: linear-gradient(0deg ,rgb(0, 0, 0) 0,rgb(50, 100, 200) 100%);   
+    
+    -webkit-transition: background-color .5s ease;
+    transition: background-color .5s ease;
+}
+.navbar-brand,.nav-link{
+    color: #5cffc1;
+}
+.navbar-brand:hover,.nav-link:hover{
+    color: yellowgreen;
+}
+.navbar-toggler{
+    background:linear-gradient(270deg ,rgba(0, 128, 128, 0.8) 0,rgba(0, 155, 155, 0.8) 100%) !important;
+}
+
+body{
+    background-color: beige;
+    background: linear-gradient(180deg,rgb(0, 0, 0) 0,rgb(50, 100, 200) 100%);
+    background-position: center;
+    background-attachment: scroll;
+    height: 100vh !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header.masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 72px;
+    padding-bottom: 0;
+}
+
+.shape_anim{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+/* .shape_square{
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    top: -40px;
+    left: 50%;
+    transform: translateY(-25%) translateX(-50%) rotate(-45deg);
+    background: linear-gradient(140deg,rgba(196, 18, 18, 0.87) 0,rgba(206, 123, 14, 0.5) 50%, rgba(197, 185, 16, 0.829) 100%);
+} */
+.shape_circle{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 140px;
+    height: 140px;
+    transform: translateX(-50%) rotate(180deg);
+    border-radius: 70px;
+    background: radial-gradient(circle at 100px 100px, #5cffc1, #000);
+    animation: rebondi 1.5s ease-in-out 3;
+}
+.shape_circle:hover{
+    background: radial-gradient(circle at 100px 100px, yellowgreen, #000);
+}
+.shape_circle:active{
+    background: radial-gradient(circle at 100px 100px, rgb(205, 60, 50), #000);
+}
+@keyframes rebondi{
+   
+    0%{
+        transform: translateX(-50%) rotate(180deg);
+    }
+    50%{
+        transform: translateY(-50%) translateX(-50%) rotate(180deg);
+    }
+    100%{
+        transform: translateX(-50%) rotate(180deg);
+    }
+}
+
+main{
+    height: 100vh !important;
+}
